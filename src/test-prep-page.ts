@@ -180,7 +180,7 @@ function apTab(ui: PrepUi, grades: GradesState, today: string, h: PrepHelpers) {
     body = `<section class="panel ap-picks" aria-label="${w("Suggested subjects", "추천 과목")}">${planning.apPriorities
       .map(
         (a) =>
-          `<div class="ap-pick ${isPlanned(a.name) ? "is-planned" : ""}"><span class="ap-num">0${a.priority}</span><div><strong data-original-language>${esc(a.name)}</strong>${a.priority === 4 ? ` <span class="grade-tag tag-other">${w("Optional", "선택")}</span>` : ""}<p class="small muted">${esc(a.reason)}</p></div><span class="small">${dayLabel(a.examDate)}</span>${isPlanned(a.name) ? `<span class="pos-chip pos-within">${w("Planned", "계획 중")}</span>` : `<button class="button button-light" data-add-ap="${esc(a.name)}">＋ ${w("Add to my plan", "내 계획에")}</button>`}</div>`,
+          `<div class="ap-pick ${isPlanned(a.name) ? "is-planned" : ""}"><span class="ap-num">0${a.priority}</span><div><strong data-original-language>${esc(a.name)}</strong><p class="small muted">${esc(a.reason)}</p></div><span class="small">${dayLabel(a.examDate)}</span>${isPlanned(a.name) ? `<span class="pos-chip pos-within">${w("Planned", "계획 중")}</span>` : `<button class="button button-light" data-add-ap="${esc(a.name)}">＋ ${w("Add to my plan", "내 계획에")}</button>`}</div>`,
       )
       .join("")}</section>`;
   } else if (ui.ap === "apply") {

@@ -620,18 +620,18 @@
       "status": "Planning priority; verified content and credit example"
     },
     {
-      "id": "human-geography",
-      "name": "AP Human Geography",
+      "id": "microeconomics",
+      "name": "AP Microeconomics",
       "priority": 4,
-      "reason": "Population, migration, culture and cities connect directly with sociology and broader social-science interests; map and data interpretation complement Psychology and Statistics.",
-      "difficulty": "Reading, geographic vocabulary, map/data analysis and written explanations require steady practice. This workload advice is editorial, not an official difficulty ranking.",
-      "timing": "Consider Grade 11 or Grade 12 when social-science reading is comfortable and a course or exam host is available.",
-      "examDate": "2027-05-03",
-      "session": "Session 1; coordinator confirms reporting time",
+      "reason": "Supply and demand, consumer and business decisions, and market structures support an interest in economics, business and the social sciences.",
+      "difficulty": "Economic models, graphs and written explanations need steady practice. This workload advice is editorial, not an official difficulty ranking.",
+      "timing": "Consider Grade 11 or Grade 12 when you can practise economic graphs and have access to a course or exam host.",
+      "examDate": "2027-05-04",
+      "session": "Session 2; coordinator confirms reporting time",
       "target": "Consider 4–5 as a study goal; not an admission requirement or a universal credit threshold",
-      "credit": "Check each university’s Human Geography credit and degree requirements before registering; no specific credit award is assumed here.",
-      "sourceIds": ["ap-human-geography", "ap-dates"],
-      "status": "Optional planning priority; verified course content and exam date"
+      "credit": "Check each university’s Microeconomics credit and degree requirements before registering; no specific credit award is assumed here.",
+      "sourceIds": ["ap-micro", "ap-dates"],
+      "status": "Planning priority; verified course content and exam date"
     }
   ],
   "resources": [
